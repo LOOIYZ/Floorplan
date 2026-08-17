@@ -1,0 +1,65 @@
+:root {
+  --duxton-background-default: #ffffff;
+  --duxton-background-alt: #f5f5f5;
+  --duxton-background-surface-1: #ffffff;
+  --duxton-content-default: #1a1a1a;
+  --duxton-content-subtle: #3d3d3d;
+  --duxton-content-dim: #707070;
+  --duxton-outline-softest: #e8e8e8;
+  --duxton-outline-soft: #dbdbdb;
+  --duxton-brand-primary-default: #00b14f;
+  --duxton-brand-primary-soft: #b1eaba;
+  --duxton-brand-primary-boldest: #005339;
+  --floorplan-ink: #1b2a4a;
+  --floorplan-paper: #ffffff;
+  --rounded-m: 16px;
+  --rounded-l: 32px;
+  --rounded-full: 10240px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --duxton-background-default: #1a1a1a;
+    --duxton-background-alt: #3d3d3d;
+    --duxton-background-surface-1: #292929;
+    --duxton-content-default: #ffffff;
+    --duxton-content-subtle: #bfbfbf;
+    --duxton-content-dim: #a3a3a3;
+    --duxton-outline-softest: #292929;
+    --duxton-outline-soft: #3d3d3d;
+    --duxton-brand-primary-soft: #00804a;
+    --duxton-brand-primary-boldest: #d9fcde;
+  }
+}
+
+.floorplan {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  color: var(--floorplan-ink);
+}
+
+.floorplan-figure {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 0;
+  padding: 16px;
+  background: var(--duxton-background-surface-1);
+  border: 1px solid var(--duxton-outline-softest);
+  border-radius: var(--rounded-m);
+}
+
+.floorplan-sheet {
+  padding: 16px;
+  background: var(--floorplan-paper);
+  border-radius: 12px;
+}
+
+.floorplan-figure figcaption {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4286;
+  color: var(--duxton-content-subtle);
+}

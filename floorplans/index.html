@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Faculty Floor Plans</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="floorplans.css" />
+    <style>
+      body {
+        margin: 0;
+        padding: 24px;
+        background: var(--duxton-background-alt);
+        color: var(--duxton-content-default);
+        font-family: Inter, "Helvetica Neue", Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+      }
+
+      .page {
+        max-width: 1120px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+      }
+
+      .page-header h1 {
+        margin: 0 0 8px;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 1.2;
+      }
+
+      .page-header p {
+        margin: 0;
+        max-width: 60ch;
+        color: var(--duxton-content-dim);
+      }
+
+      .plan-nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+
+      .plan-nav a {
+        padding: 8px 16px;
+        border-radius: var(--rounded-full);
+        background: var(--duxton-background-surface-1);
+        border: 1px solid var(--duxton-outline-soft);
+        color: var(--duxton-brand-primary-boldest);
+        font-size: 14px;
+        font-weight: 600;
+        text-decoration: none;
+      }
+
+      .plan-nav a:hover {
+        border-color: var(--duxton-brand-primary-default);
+      }
+
+      .plan-nav a:focus-visible,
+      .floorplan-figure:focus-visible {
+        outline: 3px solid var(--duxton-brand-primary-soft);
+        outline-offset: 3px;
+      }
+
+      .plan-grid {
+        display: grid;
+        gap: 24px;
+        grid-template-columns: 1fr;
+      }
+
+      @media (min-width: 900px) {
+        .plan-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <header class="page-header">
+        <h1>Faculty Floor Plan</h1>
+        <p>
+          Each level is a standalone SVG drawing that scales with its container and
+          inherits text colour from the page.
+        </p>
+      </header>
+
+      <nav class="plan-nav" aria-label="Jump to a level">
+        <a href="#block-a-level-1">Block A L1</a>
+        <a href="#block-a-level-2">Block A L2</a>
+        <a href="#block-a-level-3">Block A L3</a>
+        <a href="#block-b-level-1">Block B L1</a>
+        <a href="#block-b-level-2">Block B L2</a>
+        <a href="#block-b-level-3">Block B L3</a>
+      </nav>
+
+      <div class="plan-grid">
+        <figure class="floorplan-figure" id="block-a-level-1">
+          <div class="floorplan-sheet">
+            <img
+              class="floorplan"
+              src="block-a-level-1.svg"
+              width="800"
+              height="812"
+              alt="Block A Level 1 floor plan"
+            />
+          </div>
+          <figcaption>Block A &middot; Level 1</figcaption>
+        </figure>
+
+        <figure class="floorplan-figure" id="block-a-level-2">
+          <div class="floorplan-sheet">
+            <img
+              class="floorplan"
+              src="block-a-level-2.svg"
+              width="900"
+              height="816"
+              alt="Block A Level 2 floor plan"
+            />
+          </div>
+          <figcaption>Block A &middot; Level 2</figcaption>
+        </figure>
+
+        <figure class="floorplan-figure" id="block-a-level-3">
+          <div class="floorplan-sheet">
+            <img
+              class="floorplan"
+              src="block-a-level-3.svg"
+              width="870"
+              height="816"
+              alt="Block A Level 3 floor plan"
+            />
+          </div>
+          <figcaption>Block A &middot; Level 3</figcaption>
+        </figure>
+
+        <figure class="floorplan-figure" id="block-b-level-1">
+          <div class="floorplan-sheet">
+            <img
+              class="floorplan"
+              src="block-b-level-1.svg"
+              width="1000"
+              height="560"
+              alt="Block B Level 1 floor plan"
+            />
+          </div>
+          <figcaption>Block B &middot; Level 1</figcaption>
+        </figure>
+
+        <figure class="floorplan-figure" id="block-b-level-2">
+          <div class="floorplan-sheet">
+            <img
+              class="floorplan"
+              src="block-b-level-2.svg"
+              width="980"
+              height="730"
+              alt="Block B Level 2 floor plan"
+            />
+          </div>
+          <figcaption>Block B &middot; Level 2</figcaption>
+        </figure>
+
+        <figure class="floorplan-figure" id="block-b-level-3">
+          <div class="floorplan-sheet">
+            <img
+              class="floorplan"
+              src="block-b-level-3.svg"
+              width="980"
+              height="730"
+              alt="Block B Level 3 floor plan"
+            />
+          </div>
+          <figcaption>Block B &middot; Level 3</figcaption>
+        </figure>
+      </div>
+    </main>
+  </body>
+</html>

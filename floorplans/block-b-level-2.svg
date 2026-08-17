@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="40 0 980 730" role="img" aria-labelledby="fp-b2-title" color="#1b2a4a" fill="none" stroke="currentColor" stroke-linecap="square" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+  <title id="fp-b2-title">Faculty floor plan, Block B Level 2</title>
+
+  <text x="530" y="40" fill="currentColor" stroke="none" font-size="30" text-anchor="middle">Block B Level 2</text>
+
+  <g stroke-width="3.5">
+    <rect x="70" y="80" width="920" height="620" />
+  </g>
+
+  <g stroke-width="2.5">
+    <path d="M170 80 V700" />
+    <path d="M70 90 H170" />
+    <path d="M70 400 H170" />
+    <path d="M70 425 H170" />
+    <path d="M70 510 H170" />
+    <rect x="355" y="165" width="90" height="100" />
+    <rect x="355" y="280" width="235" height="145" />
+  </g>
+
+  <g stroke-width="2">
+    <path d="M300 75 H405 M300 145 H405" />
+    <path d="M300 85 H405 M300 95 H405 M300 105 H405 M300 115 H405 M300 125 H405 M300 135 H405" stroke-width="1.4" />
+    <path d="M352 141 V79" />
+    <path d="M346 87 L352 75 L358 87" fill="currentColor" />
+  </g>
+
+  <g stroke-width="2">
+    <path d="M300 500 H405 M300 570 H405" />
+    <path d="M300 510 H405 M300 520 H405 M300 530 H405 M300 540 H405 M300 550 H405 M300 560 H405" stroke-width="1.4" />
+    <path d="M352 566 V504" />
+    <path d="M346 512 L352 500 L358 512" fill="currentColor" />
+  </g>
+
+  <g stroke-width="2">
+    <path d="M800 450 V565 M855 450 V565" />
+    <path d="M810 450 V565 M820 450 V565 M830 450 V565 M840 450 V565" stroke-width="1.4" />
+    <path d="M804 507 H866" />
+    <path d="M858 501 L870 507 L858 513" fill="currentColor" />
+  </g>
+
+  <g stroke-width="2.5">
+    <rect x="195" y="625" width="60" height="70" />
+  </g>
+
+  <g fill="currentColor" stroke="none" text-anchor="middle">
+    <g font-size="20">
+      <text x="472" y="345">Student</text>
+      <text x="472" y="371">Lounge</text>
+      <text x="120" y="460">Bilik</text>
+      <text x="120" y="482">Seminar 3</text>
+      <text x="120" y="504">(BS3)</text>
+      <text x="225" y="667">Lift</text>
+    </g>
+    <text x="0" y="0" font-size="20" transform="translate(112,245) rotate(-90)">Lecturer&#8217;s Room</text>
+  </g>
+
+  <g fill="currentColor" stroke="none">
+    <g transform="translate(374,197)">
+      <circle cx="0" cy="0" r="5.5" />
+      <path d="M0 6 L-8 25 H8 Z" />
+      <rect x="-5" y="25" width="3.4" height="8" />
+      <rect x="1.6" y="25" width="3.4" height="8" />
+    </g>
+    <g font-size="14">
+      <text x="390" y="203">Ladies&#8217;</text>
+      <text x="390" y="219">Toilet</text>
+    </g>
+  </g>
+</svg>

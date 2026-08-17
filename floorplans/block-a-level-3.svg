@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="28 0 870 816" role="img" aria-labelledby="fp-a3-title" color="#1b2a4a" fill="none" stroke="currentColor" stroke-linecap="square" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+  <title id="fp-a3-title">Faculty floor plan, Block A Level 3</title>
+
+  <text x="463" y="32" fill="currentColor" stroke="none" font-size="30" text-anchor="middle">Block A Level 3</text>
+
+  <g stroke-width="3.5">
+    <path d="M95 60 H830 V798 H560" />
+    <path d="M370 798 H95 V60" />
+  </g>
+
+  <g stroke-width="2.5">
+    <path d="M228 193 H668 V588 H228 Z" />
+    <path d="M95 653 H185" />
+    <path d="M95 703 H270" />
+    <path d="M185 653 V703" />
+    <path d="M270 703 V798" />
+    <path d="M600 668 H830" />
+    <path d="M600 668 V798" />
+  </g>
+
+  <g stroke-width="2">
+    <rect x="62" y="278" width="33" height="175" />
+    <path d="M64 390 H93 M64 400 H93 M64 410 H93 M64 420 H93 M64 430 H93 M64 440 H93" stroke-width="1.4" />
+    <rect x="830" y="278" width="33" height="175" />
+    <path d="M832 390 H861 M832 400 H861 M832 410 H861 M832 420 H861 M832 430 H861 M832 440 H861" stroke-width="1.4" />
+  </g>
+
+  <g stroke-width="2.5">
+    <rect x="372" y="383" width="183" height="150" />
+    <path d="M372 383 L555 533 M555 383 L372 533" />
+    <path d="M385 533 V571 A14 14 0 0 1 371 585 H355" />
+    <path d="M535 533 V571 A14 14 0 0 0 549 585 H568" />
+    <path d="M385 585 V673 M535 585 V673" />
+  </g>
+  <g stroke-width="1.6">
+    <path d="M420 611 H500 M420 621 H500 M420 631 H500 M420 641 H500 M420 651 H500 M420 661 H500 M420 671 H500" />
+    <path d="M460 671 V599" stroke-width="2" />
+    <path d="M453 607 L460 595 L467 607" stroke-width="2" fill="currentColor" />
+  </g>
+
+  <g stroke-width="1.6">
+    <path d="M185 703 v-38" />
+    <path d="M185 665 A38 38 0 0 1 147 703" />
+    <path d="M195 703 v38" />
+    <path d="M195 741 A38 38 0 0 0 233 703" />
+    <path d="M268 703 v38" />
+    <path d="M268 741 A38 38 0 0 1 230 703" />
+    <path d="M638 668 v38" />
+    <path d="M638 706 A38 38 0 0 0 676 668" />
+    <path d="M830 730 v38" />
+    <path d="M830 768 A38 38 0 0 1 792 730" />
+  </g>
+
+  <g fill="currentColor" stroke="none" text-anchor="middle">
+    <g font-size="22">
+      <text x="449" y="112">Lecturer&#8217;s Room</text>
+      <text x="460" y="716">Foyer</text>
+      <text x="145" y="756" font-size="20">Surau</text>
+      <text x="145" y="780" font-size="20">(Mens)</text>
+      <text x="716" y="738">Bilik Kuliah 2</text>
+      <text x="716" y="766">(BK2)</text>
+    </g>
+  </g>
+
+  <g fill="currentColor" stroke="none">
+    <g transform="translate(120,666)">
+      <circle cx="0" cy="0" r="5.5" />
+      <path d="M-5.5 6 H5.5 V22 H-5.5 Z" />
+      <rect x="-5.5" y="22" width="3.6" height="9" />
+      <rect x="1.9" y="22" width="3.6" height="9" />
+    </g>
+    <g font-size="15">
+      <text x="136" y="672">Men&#8217;s</text>
+      <text x="136" y="689">Toilet</text>
+    </g>
+  </g>
+</svg>

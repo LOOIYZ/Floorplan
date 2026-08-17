@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="40 0 980 730" role="img" aria-labelledby="fp-b3-title" color="#1b2a4a" fill="none" stroke="currentColor" stroke-linecap="square" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+  <title id="fp-b3-title">Faculty floor plan, Block B Level 3</title>
+
+  <text x="530" y="40" fill="currentColor" stroke="none" font-size="30" text-anchor="middle">Block B Level 3</text>
+
+  <g stroke-width="3.5">
+    <rect x="68" y="75" width="922" height="625" />
+  </g>
+
+  <g stroke-width="2.5">
+    <path d="M148 120 H930 V345" />
+    <path d="M930 400 V700" />
+    <path d="M148 120 V700" />
+    <rect x="668" y="345" width="262" height="55" />
+  </g>
+
+  <g stroke-width="2">
+    <path d="M170 115 H280 M170 170 H280" />
+    <path d="M170 125 H280 M170 135 H280 M170 145 H280 M170 155 H280" stroke-width="1.4" />
+    <path d="M225 166 V108" />
+    <path d="M219 116 L225 104 L231 116" fill="currentColor" />
+  </g>
+
+  <g stroke-width="2">
+    <path d="M934 400 H988 M934 455 H988" />
+    <path d="M934 410 H988 M934 420 H988 M934 430 H988 M934 440 H988" stroke-width="1.4" />
+    <path d="M961 451 V393" />
+    <path d="M955 401 L961 389 L967 401" fill="currentColor" />
+  </g>
+
+  <g stroke-width="2">
+    <path d="M305 610 H420 M305 668 H420" />
+    <path d="M305 620 H420 M305 630 H420 M305 640 H420 M305 650 H420 M305 660 H420" stroke-width="1.4" />
+    <path d="M362 664 V603" />
+    <path d="M356 611 L362 599 L368 611" fill="currentColor" />
+  </g>
+
+  <g stroke-width="2.5">
+    <rect x="170" y="610" width="110" height="58" />
+  </g>
+
+  <g fill="currentColor" stroke="none" text-anchor="middle">
+    <g font-size="20">
+      <text x="512" y="104">Lecturer&#8217;s Room</text>
+      <text x="799" y="379">Bridge to Block A</text>
+      <text x="225" y="646">Lift</text>
+    </g>
+    <text x="0" y="0" font-size="20" transform="translate(108,400) rotate(-90)">Lecturer&#8217;s Room</text>
+  </g>
+</svg>
